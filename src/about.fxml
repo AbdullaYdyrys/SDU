@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainMenu">
+   <children>
+      <ImageView fitHeight="619.0" fitWidth="1133.0" layoutX="-9.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@res/back.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="76.0" layoutY="37.0" prefHeight="53.0" prefWidth="1057.0" text="In our spare time, at breaks at the university, " textFill="#bc3434">
+         <font>
+            <Font name="Elephant" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="90.0" text="we spend a lot of time in order to find a free office. " textFill="#bc3434">
+         <font>
+            <Font name="Elephant" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="196.0" text=" application that will help to solve this problem and " textFill="#bc3434">
+         <font>
+            <Font name="Elephant" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="143.0" text="SDU rooms is a convenient and easy-to-use " textFill="#bc3434">
+         <font>
+            <Font name="Elephant" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="249.0" text="make it easier  to search for a free office." textFill="#bc3434">
+         <font>
+            <Font name="Elephant" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="471.0" text="Created by abdulla ydyrys   " textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Castellar" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="295.0" layoutY="534.0" text="on 01.04.2018 " textFill="WHITE">
+         <font>
+            <Font name="Castellar" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
